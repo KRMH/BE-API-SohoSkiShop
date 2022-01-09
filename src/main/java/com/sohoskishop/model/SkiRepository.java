@@ -9,6 +9,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @author george
  *
  */
-public interface SkiRepository extends JpaRepository<Ski, Long> {
+public interface SkiRepository extends JpaRepository<Ski, Integer> {
 
 }
